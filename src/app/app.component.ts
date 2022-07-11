@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'cng';
+  title = 'cng project';
+  fluid=''
+
+  bx(event:Event){
+    this.fluid= (<HTMLInputElement>event.target).value;
+  }
 }
