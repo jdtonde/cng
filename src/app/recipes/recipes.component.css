@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "list detail";
+}
+
+.recipes-list{
+    
+    grid-area: list;
+    background-color: aqua;
+
+}
+
+.recipes-detail{
+    grid-area: detail ;
+    background-color: bisque;
+}
