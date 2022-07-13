@@ -1,0 +1,28 @@
+.add{
+    background-color: green;
+}
+
+.delete{
+    background-color: red;
+}
+
+.clear{
+    background-color: blue;
+}
+
+.btn{
+    font-size: medium;
+    color: azure;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.container {
+    display: flex;
+}
+
+input{
+    height: 30px;
+}

@@ -1,3 +1,15 @@
 .container .shopping-edit{
     background-color: cadetblue;
 }
+
+.list-group{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.list-group-item{
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 0.3px grey solid;
+}

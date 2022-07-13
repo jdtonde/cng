@@ -1,0 +1,49 @@
+.container{
+    margin-bottom: 10px;
+    display: flex;
+    background-color: azure;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2),
+    -5px -5px 10px rgba(255,255,255,0.6),
+    inset 3px 3px 4px rgba(255,255,255,0.8),
+    inset -3px -3px 4px rgba(0,0,0,0.2);
+    
+
+}
+
+.img > img {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    
+}
+
+.img span{
+    font-weight: 800;
+}
+
+button{
+   
+    color: aliceblue;
+    background-color: blue;
+    font-size: medium;
+    border-style: none;
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    border-radius: 15px;
+    margin: 10px 1px;
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
